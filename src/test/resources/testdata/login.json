@@ -1,0 +1,64 @@
+[
+  {
+    "email": "admin",
+    "password": "Rotur&M@2026",
+    "type": "success",
+    "expected": ""
+  },
+  {
+    "email": "",
+    "password": "",
+    "type": "validation",
+    "expected": "This field is required."
+  },
+  {
+    "email": "admin",
+    "password": "",
+    "type": "validation",
+    "expected": "This field is required."
+  },
+  {
+    "email": "",
+    "password": "Rotur&M@2026",
+    "type": "validation",
+    "expected": "This field is required."
+  },
+  {
+    "email": "admins",
+    "password": "Rotur&M@2026",
+    "type": "error",
+    "expected": "Invalid email or password, please try again."
+  },
+  {
+    "email": "admin",
+    "password": "WrongPass123",
+    "type": "error",
+    "expected": "Invalid email or password, please try again."
+  },
+  {
+    "email": "invalidemail@",
+    "password": "123456",
+    "type": "error",
+    "expected": "Invalid email or password, please try again."
+  },
+  {
+    "email": "ADMIN",
+    "password": "Rotur&M@2026",
+    "type": "error",
+    "expected": "Invalid email or password, please try again."
+  },
+  {
+    "email": " admin ",
+    "password": "Rotur&M@2026",
+    "type": "error",
+    "expected": "Invalid email or password, please try again."
+  },
+  {
+    "email": "admin",
+    "password": "   ",
+    "type": "validation",
+    "expected": "This field is required.",
+	"emailError": "This field is required.",
+	"passwordError": ""
+  }
+]

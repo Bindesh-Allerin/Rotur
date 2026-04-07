@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-06T19:24:57 IST" name="Default suite" finished-at="2026-04-06T19:26:43 IST" duration-ms="105247">
+    <groups>
+    </groups>
+    <test started-at="2026-04-06T19:24:57 IST" name="Default test" finished-at="2026-04-06T19:26:43 IST" duration-ms="105247">
+      <class name="com.rotur.test.RoturLogin">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:24:57 IST" name="setupReport" finished-at="2026-04-06T19:24:57 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:24:58 IST" name="setup" finished-at="2026-04-06T19:25:03 IST" duration-ms="5565" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rotur.test.RoturLogin.testLogin(com.testData.LoginData)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:03 IST" name="testLogin" data-provider="loginData" finished-at="2026-04-06T19:25:05 IST" duration-ms="2200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginData{email=admin'',type='success\, toast='null', errors=null}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:05 IST" name="tearDown" finished-at="2026-04-06T19:25:06 IST" duration-ms="417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=RoturLogin.testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:06 IST" name="setup" finished-at="2026-04-06T19:25:10 IST" duration-ms="4491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rotur.test.RoturLogin.testLogin(com.testData.LoginData)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:10 IST" name="testLogin" data-provider="loginData" finished-at="2026-04-06T19:25:12 IST" duration-ms="1202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginData{email='',type='validation\, toast='null', errors={email=This field is required., password=This field is required.}}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:12 IST" name="tearDown" finished-at="2026-04-06T19:25:12 IST" duration-ms="317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=RoturLogin.testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:12 IST" name="setup" finished-at="2026-04-06T19:25:16 IST" duration-ms="4030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rotur.test.RoturLogin.testLogin(com.testData.LoginData)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:16 IST" name="testLogin" data-provider="loginData" finished-at="2026-04-06T19:25:17 IST" duration-ms="1563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginData{email=admins'',type='error\, toast='Invalid email or password, please try again.', errors=null}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:17 IST" name="tearDown" finished-at="2026-04-06T19:25:18 IST" duration-ms="276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=RoturLogin.testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:18 IST" name="setup" finished-at="2026-04-06T19:25:22 IST" duration-ms="4026" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rotur.test.RoturLogin.testLogin(com.testData.LoginData)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:22 IST" name="testLogin" data-provider="loginData" finished-at="2026-04-06T19:25:24 IST" duration-ms="1845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginData{email=admin'',type='error\, toast='Invalid email or password, please try again.', errors=null}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:24 IST" name="tearDown" finished-at="2026-04-06T19:25:24 IST" duration-ms="250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=RoturLogin.testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:24 IST" name="setup" finished-at="2026-04-06T19:25:28 IST" duration-ms="4361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rotur.test.RoturLogin.testLogin(com.testData.LoginData)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:28 IST" name="testLogin" data-provider="loginData" finished-at="2026-04-06T19:25:30 IST" duration-ms="1570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginData{email=invalidemail@'',type='error\, toast='Invalid email or password, please try again.', errors=null}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:30 IST" name="tearDown" finished-at="2026-04-06T19:25:30 IST" duration-ms="297" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=RoturLogin.testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:30 IST" name="setup" finished-at="2026-04-06T19:25:34 IST" duration-ms="3707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rotur.test.RoturLogin.testLogin(com.testData.LoginData)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:34 IST" name="testLogin" data-provider="loginData" finished-at="2026-04-06T19:25:35 IST" duration-ms="1567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginData{email=ADMIN'',type='error\, toast='Invalid email or password, please try again.', errors=null}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:35 IST" name="tearDown" finished-at="2026-04-06T19:25:36 IST" duration-ms="344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=RoturLogin.testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:36 IST" name="setup" finished-at="2026-04-06T19:25:40 IST" duration-ms="4375" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rotur.test.RoturLogin.testLogin(com.testData.LoginData)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:40 IST" name="testLogin" data-provider="loginData" finished-at="2026-04-06T19:25:42 IST" duration-ms="1506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginData{email= admin '',type='error\, toast='Invalid email or password, please try again.', errors=null}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:42 IST" name="tearDown" finished-at="2026-04-06T19:25:42 IST" duration-ms="250" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=RoturLogin.testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:42 IST" name="setup" finished-at="2026-04-06T19:25:45 IST" duration-ms="3546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rotur.test.RoturLogin.testLogin(com.testData.LoginData)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:25:45 IST" name="testLogin" data-provider="loginData" finished-at="2026-04-06T19:26:02 IST" duration-ms="16235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginData{email='',type='validation\, toast='null', errors={email=This field is required., password=}}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:26:02 IST" name="tearDown" finished-at="2026-04-06T19:26:02 IST" duration-ms="431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=RoturLogin.testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:26:02 IST" name="setup" finished-at="2026-04-06T19:26:06 IST" duration-ms="3945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rotur.test.RoturLogin.testLogin(com.testData.LoginData)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:26:06 IST" name="testLogin" data-provider="loginData" finished-at="2026-04-06T19:26:22 IST" duration-ms="16201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginData{email=admin'',type='validation\, toast='null', errors={email=, password=This field is required.}}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:26:22 IST" name="tearDown" finished-at="2026-04-06T19:26:23 IST" duration-ms="402" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=RoturLogin.testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:26:23 IST" name="setup" finished-at="2026-04-06T19:26:26 IST" duration-ms="3446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.rotur.test.RoturLogin.testLogin(com.testData.LoginData)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:26:26 IST" name="testLogin" data-provider="loginData" finished-at="2026-04-06T19:26:42 IST" duration-ms="16285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginData{email=admin'',type='validation\, toast='null', errors={email=, password=This field is required.}}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:26:42 IST" name="tearDown" finished-at="2026-04-06T19:26:43 IST" duration-ms="298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=RoturLogin.testLogin(com.testData.LoginData)[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.rotur.test.RoturLogin@7c7a06ec]" started-at="2026-04-06T19:26:43 IST" name="flushReport" finished-at="2026-04-06T19:26:43 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.rotur.test.RoturLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -17,13 +17,13 @@ import java.util.Properties;
 //            e.printStackTrace();
 //        }
 //    }
-//    
-//    
+//
+//
 //    public static String getProperty(String key) {
 //    	return prop.getProperty(key);
 //    }
-// }    
-    
+// }
+
     public class ConfigReader {
 
         static Properties prop;
@@ -40,7 +40,7 @@ import java.util.Properties;
                 throw new RuntimeException("Could not load config.properties file at src/test/resources/config.properties");
             }
         }
-        
+
         public static String getProperty(String key) {
             return prop.getProperty(key);
         }

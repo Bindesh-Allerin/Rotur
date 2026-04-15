@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Apr 04 22:58:39 IST 2026</td>
+<td>Started on:</td><td>Mon Apr 06 19:24:57 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>78 seconds (78714 ms)</td>
+<tr><td>Total time:</td><td>105 seconds (105247 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,175 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: com.testData.LoginData@749f539e</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class=&apos;text-xs text-red-600&apos;])[2] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\BINDES~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49862}, goog:processID: 11536, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49862/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1f3e8538ea7be7637a255e8796f58d23
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.utils.WaitUtils.WaitForVisibility(WaitUtils.java:23)
-	at com.rotur.pages.LoginPage.getPasswordErrMsg(LoginPage.java:57)
-	at com.rotur.test.RoturLogin.testLogin(RoturLogin.java:49)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1235908203", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1235908203'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class=&apos;text-xs text-red-600&apos;])[2] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\BINDES~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49862}, goog:processID: 11536, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49862/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 1f3e8538ea7be7637a255e8796f58d23
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.utils.WaitUtils.WaitForVisibility(WaitUtils.java:23)
-	at com.rotur.pages.LoginPage.getPasswordErrMsg(LoginPage.java:57)
-	at com.rotur.test.RoturLogin.testLogin(RoturLogin.java:49)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>16</td>
-<td>com.rotur.test.RoturLogin@74f0ea28</td></tr>
-<tr>
-<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: com.testData.LoginData@2e3572e8</td>
-<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class=&apos;text-xs text-red-600&apos;])[2] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\BINDES~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52350}, goog:processID: 25520, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52350/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fc8d402c195d8ba58d5da5aae9a56f9b
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.utils.WaitUtils.WaitForVisibility(WaitUtils.java:23)
-	at com.rotur.pages.LoginPage.getPasswordErrMsg(LoginPage.java:57)
-	at com.rotur.test.RoturLogin.testLogin(RoturLogin.java:49)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div><a href='#' onClick='toggleBox("stack-trace708422187", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace708422187'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class=&apos;text-xs text-red-600&apos;])[2] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.178, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\BINDES~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52350}, goog:processID: 25520, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52350/devtoo..., se:cdpVersion: 146.0.7680.178, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: fc8d402c195d8ba58d5da5aae9a56f9b
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at com.utils.WaitUtils.WaitForVisibility(WaitUtils.java:23)
-	at com.rotur.pages.LoginPage.getPasswordErrMsg(LoginPage.java:57)
-	at com.rotur.test.RoturLogin.testLogin(RoturLogin.java:49)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:819)
-	at org.testng.TestRunner.run(TestRunner.java:619)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-	at org.testng.TestNG.runSuites(TestNG.java:1134)
-	at org.testng.TestNG.run(TestNG.java:1101)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>15</td>
-<td>com.rotur.test.RoturLogin@74f0ea28</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -245,45 +76,55 @@ Session ID: fc8d402c195d8ba58d5da5aae9a56f9b
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: com.testData.LoginData@49ef32e0</td>
-<td></td>
-<td>2</td>
-<td>com.rotur.test.RoturLogin@74f0ea28</td></tr>
-<tr>
-<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: com.testData.LoginData@11f406f8</td>
-<td></td>
-<td>0</td>
-<td>com.rotur.test.RoturLogin@74f0ea28</td></tr>
-<tr>
-<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: com.testData.LoginData@127d7908</td>
-<td></td>
-<td>2</td>
-<td>com.rotur.test.RoturLogin@74f0ea28</td></tr>
-<tr>
-<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: com.testData.LoginData@796065aa</td>
-<td></td>
-<td>0</td>
-<td>com.rotur.test.RoturLogin@74f0ea28</td></tr>
-<tr>
-<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: com.testData.LoginData@76c548f</td>
-<td></td>
-<td>4</td>
-<td>com.rotur.test.RoturLogin@74f0ea28</td></tr>
-<tr>
-<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: com.testData.LoginData@6ffa56fa</td>
+<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: LoginData{email='',type='validation\, toast='null', errors={email=This field is required., password=This field is required.}}</td>
 <td></td>
 <td>1</td>
-<td>com.rotur.test.RoturLogin@74f0ea28</td></tr>
+<td>com.rotur.test.RoturLogin@7c7a06ec</td></tr>
 <tr>
-<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: com.testData.LoginData@56da7487</td>
+<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: LoginData{email=admin'',type='error\, toast='Invalid email or password, please try again.', errors=null}</td>
 <td></td>
-<td>0</td>
-<td>com.rotur.test.RoturLogin@74f0ea28</td></tr>
+<td>1</td>
+<td>com.rotur.test.RoturLogin@7c7a06ec</td></tr>
 <tr>
-<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: com.testData.LoginData@3fba233d</td>
+<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: LoginData{email=admin'',type='validation\, toast='null', errors={email=, password=This field is required.}}</td>
+<td></td>
+<td>16</td>
+<td>com.rotur.test.RoturLogin@7c7a06ec</td></tr>
+<tr>
+<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: LoginData{email=admins'',type='error\, toast='Invalid email or password, please try again.', errors=null}</td>
+<td></td>
+<td>1</td>
+<td>com.rotur.test.RoturLogin@7c7a06ec</td></tr>
+<tr>
+<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: LoginData{email=ADMIN'',type='error\, toast='Invalid email or password, please try again.', errors=null}</td>
+<td></td>
+<td>1</td>
+<td>com.rotur.test.RoturLogin@7c7a06ec</td></tr>
+<tr>
+<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: LoginData{email='',type='validation\, toast='null', errors={email=This field is required., password=}}</td>
+<td></td>
+<td>16</td>
+<td>com.rotur.test.RoturLogin@7c7a06ec</td></tr>
+<tr>
+<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: LoginData{email=invalidemail@'',type='error\, toast='Invalid email or password, please try again.', errors=null}</td>
+<td></td>
+<td>1</td>
+<td>com.rotur.test.RoturLogin@7c7a06ec</td></tr>
+<tr>
+<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: LoginData{email=admin'',type='validation\, toast='null', errors={email=, password=This field is required.}}</td>
+<td></td>
+<td>16</td>
+<td>com.rotur.test.RoturLogin@7c7a06ec</td></tr>
+<tr>
+<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: LoginData{email=admin'',type='success\, toast='null', errors=null}</td>
 <td></td>
 <td>2</td>
-<td>com.rotur.test.RoturLogin@74f0ea28</td></tr>
+<td>com.rotur.test.RoturLogin@7c7a06ec</td></tr>
+<tr>
+<td title='com.rotur.test.RoturLogin.testLogin()'><b>testLogin</b><br>Test class: com.rotur.test.RoturLogin<br>Parameters: LoginData{email= admin '',type='error\, toast='Invalid email or password, please try again.', errors=null}</td>
+<td></td>
+<td>1</td>
+<td>com.rotur.test.RoturLogin@7c7a06ec</td></tr>
 </table><p>
 </body>
 </html>

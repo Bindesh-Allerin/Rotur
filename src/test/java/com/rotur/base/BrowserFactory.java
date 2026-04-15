@@ -23,7 +23,7 @@ public class BrowserFactory {
 		default:
 			throw new RuntimeException("Invalid Browser:" + browser);
 		}
-		
+
 		return driver;
 	}
 }

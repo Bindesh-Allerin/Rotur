@@ -6,7 +6,7 @@
       <class name="com.rotur.test.RoturLogin">
         <methods>
           <include name="tearDown"/>
-          <include name="testLogin" invocation-numbers="2 9"/>
+          <include name="testLogin" invocation-numbers="8 9"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.rotur.test.RoturLogin -->

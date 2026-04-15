@@ -1,12 +1,22 @@
 package com.testData;
 
+import java.util.Map;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class LoginData {
 
 	private String email;
 	private String password;
 	private String type;
-	private String expected;
 
+	// For validation errors
+	private Map<String, String> errors;
+
+	// For toast message (error cases)
+	private String toast;
+
+	// Getters
 	public String getEmail() {
 		return email;
 	}
@@ -19,8 +29,18 @@ public class LoginData {
 		return type;
 	}
 
-	public String getExpected() {
-		return expected;
+	public Map<String, String> getErrors() {
+		return errors;
+	}
+
+	public String getToast() {
+		return toast;
+	}
+
+	@Override
+	public String toString() {
+		return "LoginData{" + "email=" + email + '\'' + '\'' + ",type='" + type + '\\' + ", toast='" + toast + '\''
+				+ ", errors=" + errors + '}';
 	}
 
 }

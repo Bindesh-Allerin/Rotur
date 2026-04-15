@@ -2,11 +2,12 @@ package com.utils;
 
 import java.io.File;
 import java.util.List;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.testData.LoginData;
+
 import com.fasterxml.jackson.core.type.TypeReference;
 //import java.io.File;
 //import java.util.List;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.testData.LoginData;
 
 public class JsonUtils {
 
